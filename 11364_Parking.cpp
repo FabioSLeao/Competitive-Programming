@@ -6,7 +6,7 @@ int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	unsigned short int t{0},store{0}, n_stores{0},max{0},min{100};
+	int t{0},store{0}, n_stores{0},max{0},min{100};
 	cin >> t;
 	while(t--){
 		cin >> n_stores;
